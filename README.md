@@ -1,165 +1,123 @@
 # 🌤️ SkyPulse Weather
 
-**A modern, responsive weather application built with Flutter and Dart.**
+**A modern, responsive, cross-platform weather application built using Flutter and Dart.**
 
-SkyPulse Weather provides real-time weather information, city-based weather search, location-based forecasts, and a 7-day weather outlook through a clean and user-friendly interface. It is designed to work across Android and Web platforms.
+<p align="center">
+  <a href="https://strong-duckanoo-c29096.netlify.app/">
+    <strong>🌐 Visit Live Website</strong>
+  </a>
+</p>
 
-## 📸 About the Project
+## 📸 Project Preview
 
-SkyPulse Weather is a cross-platform weather application that helps users stay informed about current weather conditions and upcoming forecasts. It uses the Open-Meteo API to retrieve weather information and provides location-based weather updates.
+SkyPulse Weather provides real-time weather information, location-based updates, city search, and a 7-day weather forecast through a clean and responsive interface.
+
+<!-- Add your dashboard screenshot to the GitHub repository and replace the path below -->
+![SkyPulse Weather Dashboard](screenshots/skypulse-dashboard.png)
 
 ## ✨ Features
 
-- **Live Weather Updates:** Get current weather conditions for different locations.
-- **City Search:** Search for cities and explore their weather information.
-- **Location Detection:** Get weather updates based on your current GPS location.
-- **7-Day Forecast:** View upcoming weather conditions for the next seven days.
-- **Temperature Conversion:** Switch between Celsius (°C) and Fahrenheit (°F).
-- **Weather Details:** View humidity, wind speed, pressure, and precipitation.
-- **Recent Search History:** Access previously searched cities.
-- **Persistent Settings:** Save preferences and recent search information locally.
-- **Refresh Weather:** Update weather information whenever required.
-- **Responsive Interface:** Optimized for desktop and mobile screens.
-- **Error Handling:** User-friendly loading, empty, and error states.
+- Live weather updates
+- Search weather by city
+- GPS-based current location detection
+- 7-day weather forecast
+- Celsius and Fahrenheit conversion
+- Humidity, wind speed, pressure and precipitation details
+- Recent search history
+- Persistent user settings
+- Refresh weather information
+- Responsive desktop and mobile interface
+- Loading indicators and error handling
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose |
-|---|---|
-| Flutter | Cross-platform application development |
-| Dart | Programming language |
-| Provider | State management |
-| Open-Meteo API | Weather data |
-| HTTP | API communication |
-| Hive | Local data storage |
-| Geolocator | Location detection |
-| Intl | Date and number formatting |
+- **Flutter** – Cross-platform UI development
+- **Dart** – Application programming language
+- **Provider** – State management
+- **Open-Meteo API** – Weather data
+- **HTTP** – API communication
+- **Hive** – Local data storage
+- **Geolocator** – Location services
+- **Intl** – Date and number formatting
 
-## 🏗️ Project Structure
+## 🚀 Run Locally
 
-```text
-weather_app/
-│
-├── android/
-├── ios/
-├── linux/
-├── macos/
-├── windows/
-├── web/
-│
-├── lib/
-│   ├── main.dart
-│   ├── models/
-│   ├── providers/
-│   ├── services/
-│   ├── views/
-│   └── widgets/
-│
-├── test/
-├── pubspec.yaml
-├── pubspec.lock
-└── README.md
-```
-
-## 🚀 Getting Started
-
-Follow these steps to run the project locally.
-
-### Prerequisites
-
-- Flutter SDK
-- Dart SDK
-- Visual Studio Code or Android Studio
-- Google Chrome (for web execution)
-
-### 1. Clone the Repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/VedikaNaik27/weather_app.git
 ```
 
-### 2. Navigate to the Project
+Navigate to the project:
 
 ```bash
 cd weather_app
 ```
 
-### 3. Install Dependencies
+Install dependencies:
 
 ```bash
 flutter pub get
 ```
 
-### 4. Run the Application
-
-For Chrome:
+Run the application:
 
 ```bash
 flutter run -d chrome
 ```
 
-For Android:
+## 🌐 Web Deployment
 
-```bash
-flutter run
-```
+SkyPulse Weather is deployed using Netlify.
 
-## 🌐 Build for Web
+**Live Website:** https://strong-duckanoo-c29096.netlify.app/
 
-To generate the production web application:
+To generate a production web build:
 
 ```bash
 flutter build web --release
 ```
 
-The generated web files will be available in:
+The generated files are available in:
 
 ```text
 build/web/
 ```
 
-These files can be deployed using a static web hosting platform such as Netlify.
+## 🧪 Testing
 
-## 🌦️ Weather API
+The application was verified using Flutter development tools.
 
-SkyPulse Weather uses the **Open-Meteo API** to retrieve weather information.
-
-- Website: https://open-meteo.com/
-- API Documentation: https://open-meteo.com/en/docs
-
-Open-Meteo provides weather forecast data without requiring an API key for standard non-commercial use.
-
-## 🧪 Testing and Code Quality
-
-The project has been checked using Flutter's development tools.
-
-| Check | Result |
+| Test | Result |
 |---|---|
 | Dependency installation | Successful |
 | Flutter Analyze | No issues found |
 | Automated tests | 11 tests passed |
-| Web Release Build | Successful |
+| Web release build | Successful |
+| Manual functionality testing | Completed |
 
 ## 🔮 Future Enhancements
 
-- Weather notifications and alerts.
-- Interactive weather maps.
-- Hourly weather forecasts.
-- Weather widgets.
-- Additional weather insights and visualizations.
+- Hourly weather forecasts
+- Weather alerts and notifications
+- Interactive weather maps
+- Additional weather visualizations
+- Weather widgets
 
 ## 👩‍💻 Developer
 
 **Vedika J Naik**
 
-Information Science and Engineering Student
+Information Science and Engineering
 
-GitHub: [@VedikaNaik27](https://github.com/VedikaNaik27)
+GitHub: [VedikaNaik27](https://github.com/VedikaNaik27)
+
+Project Repository: [SkyPulse Weather](https://github.com/VedikaNaik27/weather_app)
 
 ## 📄 License
 
-This project is developed for educational and personal portfolio purposes.
+Developed for educational and personal portfolio purposes.
 
 ---
 
-⭐ If you find this project interesting, consider giving the repository a star!
+⭐ If you find this project useful, consider giving the repository a star!
